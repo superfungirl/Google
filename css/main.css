@@ -105,6 +105,13 @@ body {
   width: 50px;
   position: relative;
   left: -50px;
+  outline: none;
+}
+
+.wrapper .main .input button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+          box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .wrapper .main .search-nav {

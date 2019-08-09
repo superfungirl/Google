@@ -104,9 +104,13 @@ body{
             width: 50px;
             position: relative;
             left: -50px;
+            outline: none;
             // z-index: 1;
+        }
 
-
+        button:hover{
+            cursor: pointer;
+            box-shadow: 1px 1px 1px 1px #ccc;
         }
 
         
