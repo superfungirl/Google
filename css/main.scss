@@ -1,8 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: #222222;    
-
-
 }
 
 body{
@@ -83,28 +81,32 @@ body{
         input[type=search]{
             // border: 2px solid blue;
             width: 600px;
-            padding: 16px 25px;
+            padding: 16px 50px;
             border-radius: 50px;
+            border: 1px solid #ccc;
             outline: none;
-            background-color: transparent;
+            background: #fff url("../images/search.png") no-repeat 15px 50%;
+            background-size: 14px 14px;
             cursor: default;
             text-align: left;
             font-size: 13px;
-
-            // input[type=search]:after {
-            //     content: "";
-            //     width: 50px;
-            //     display: inline-block;
-            //     height: 15px;
-            //     background-image: url("../images/search.png");
-            //     background-color: red;
-            //     position: relative;
-            // }
         }
 
         input[type=search]:hover{
             cursor: auto;
             box-shadow: 1px 1px 1px 1px #ccc;
+        }
+
+        button{
+            border-radius: 50px;
+            background: #fff url("../images/googlemic.png") no-repeat 15px 50%;
+            background-size: 30px 30px;
+            width: 50px;
+            position: relative;
+            left: -50px;
+            // z-index: 1;
+
+
         }
 
         

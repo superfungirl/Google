@@ -81,10 +81,12 @@ body {
 
 .wrapper .main .input input[type=search] {
   width: 600px;
-  padding: 16px 25px;
+  padding: 16px 50px;
   border-radius: 50px;
+  border: 1px solid #ccc;
   outline: none;
-  background-color: transparent;
+  background: #fff url("../images/search.png") no-repeat 15px 50%;
+  background-size: 14px 14px;
   cursor: default;
   text-align: left;
   font-size: 13px;
@@ -94,6 +96,15 @@ body {
   cursor: auto;
   -webkit-box-shadow: 1px 1px 1px 1px #ccc;
           box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.wrapper .main .input button {
+  border-radius: 50px;
+  background: #fff url("../images/googlemic.png") no-repeat 15px 50%;
+  background-size: 30px 30px;
+  width: 50px;
+  position: relative;
+  left: -50px;
 }
 
 .wrapper .main .search-nav {
